@@ -3,7 +3,7 @@ import * as dotenv from "dotenv";
 import cors from "cors";
 import mongoose from "mongoose";
 import generateImageRoute from "./routes/GenerateImage.js";
-import posts from "./routes/Posts.js";
+import posts from "./routes/Post.js";
 
 dotenv.config();
 
